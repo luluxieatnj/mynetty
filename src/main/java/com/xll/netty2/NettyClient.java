@@ -1,4 +1,4 @@
-package com.xll.netty1;
+package com.xll.netty2;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.Unpooled;
@@ -25,13 +25,14 @@ public class NettyClient {
                 });
 
 
-        ChannelFuture cf = b.connect("127.0.0.1",9999);         //连接指定host:ip
-        System.out.println("Client close----------0");
+        ChannelFuture cf = b.connect("127.0.0.1",8899);         // 发送到哪个地址
+
         cf.channel().write(Unpooled.copiedBuffer("Hello I am Client ".getBytes()));//write是写入缓冲区,
         cf.channel().flush();             //flush缓冲数据,必须flush!! 或者使用writeAndFlush方法发送数据
-        cf.channel().closeFuture().sync();//异步监听,传输完毕才执行此代码,然后向下执行关闭操作
-        System.out.println("Client close----------1");
+        cf.channel().closeFuture().sync(); //异步监听,传输完毕才执行此代码,然后向下执行关闭操作
+
+        System.out.println("客户端关闭，开始关闭。。。。");
         group.shutdownGracefully();       //关闭应用,断开和server连接
-        System.out.println("Client close----------2");
+        System.out.println("客户端关闭，已经关闭！！！！");
     }
 }
