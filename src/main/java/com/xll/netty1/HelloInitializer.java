@@ -13,7 +13,7 @@ public class HelloInitializer extends ChannelInitializer<SocketChannel> {
         System.out.println("HelloInitializer initChannel");
 
         ChannelPipeline pipeline = ch.pipeline();
-        pipeline.addLast("httpServerCodec", new HttpServerCodec());
+        pipeline.addLast("httpServerCodec", new HttpServerCodec());  // HttpRequestDecoder, HttpResponseEncoder
         pipeline.addLast("HelloHandler", new HelloHandler());    // 这是我们自己定义的一个Handler
     }
 }
