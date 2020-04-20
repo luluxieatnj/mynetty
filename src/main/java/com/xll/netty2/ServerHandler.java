@@ -1,4 +1,4 @@
-package com.xll.netty1;
+package com.xll.netty2;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -14,8 +14,8 @@ public class ServerHandler extends ChannelInboundHandlerAdapter{
         ByteBuf buf = (ByteBuf) msg;
         byte[] bytes = new byte[buf.readableBytes()];
         buf.readBytes(bytes);
-        String rev = new String(bytes,"utf-8");
-        System.out.println("server收到数据:"+ rev + "  time = " + System.currentTimeMillis());
+        String request = new String(bytes,"utf-8");
+        System.out.println("server收到数据:"+ request + "  time = " + System.currentTimeMillis());
         //给客户端响应一条数据
         ctx.writeAndFlush(Unpooled.copiedBuffer("你好,我是Server".getBytes()))
                 //添加监听器,写出数据后关闭通道,原理上只要拿到Futrue对象server端和client端都可以主动关闭,一般在server端关闭较好

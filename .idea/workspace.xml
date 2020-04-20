@@ -2,16 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty3/MyClientChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty3/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty3/MyServerChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty3/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty3/MySocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty3/MySocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty3/netty3说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/MyServerInitializer.java" afterDir="false" />
+>>>>>>> 31cb3c9565fa8e205e125e8c9e49afed85a2c304
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty1/HelloInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty1/HelloInitializer.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="-677026648">
       <usages-collector id="statistics.lifecycle.project">
@@ -96,25 +113,23 @@
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+>>>>>>> 31cb3c9565fa8e205e125e8c9e49afed85a2c304
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xll/netty1/NettyServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xll/netty2/HelloInitializer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\tools\maven\maven-repos" />
-        <option name="mavenHome" value="C:/tools/maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="E:/tools/maven/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="C:\tools\maven\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -124,6 +139,7 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -146,34 +162,21 @@
     <option name="width" value="984" />
     <option name="height" value="1035" />
   </component>
+=======
+  <component name="ProjectId" id="1afgOP3ydSXKYPp2KUhyitgwUkD" />
+>>>>>>> 31cb3c9565fa8e205e125e8c9e49afed85a2c304
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mynetty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mynetty" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587100901986" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587100781105" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xll/netty3" />
+>>>>>>> 31cb3c9565fa8e205e125e8c9e49afed85a2c304
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -183,6 +186,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\items\mynetty\src\main\java\com\xll\netty3" />
+      <recent name="E:\items\mynetty\src\main\java\com\xll\netty2" />
       <recent name="C:\items\mynetty" />
       <recent name="C:\items\mynetty\src\main\java\com\xll\netty2" />
       <recent name="C:\items\mynetty\src\main\java\com\xll\netty1" />
@@ -200,9 +205,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="NettyServer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.netty2.NettyServer2" />
+  <component name="RunManager" selected="Application.MySocketClient">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.netty4.MyClient" />
+      <module name="mynetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xll.netty4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.netty4.MyServer" />
+      <module name="mynetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xll.netty4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.netty3.MySocketClient" />
+      <module name="mynetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xll.netty3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.netty3.MySocketServer" />
+      <module name="mynetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xll.netty3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.netty2.NettyClient" />
       <module name="mynetty" />
       <extension name="coverage">
         <pattern>
@@ -216,7 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NettyServer2" />
+        <item itemvalue="Application.MySocketClient" />
+        <item itemvalue="Application.MySocketServer" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.NettyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +291,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587099831571</updated>
+<<<<<<< HEAD
       <workItem from="1587099833398" duration="1076000" />
     </task>
     <servers />
@@ -327,6 +389,30 @@
         </state>
       </provider>
     </entry>
+=======
+      <workItem from="1587099833398" duration="947000" />
+      <workItem from="1587132032501" duration="689000" />
+      <workItem from="1587134251329" duration="223000" />
+      <workItem from="1587134493248" duration="14706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 31cb3c9565fa8e205e125e8c9e49afed85a2c304
   </component>
   <component name="masterDetails">
     <states>
