@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty6/netty6说明" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty6/MyServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty6/netty6说明" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty6/netty6说明" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
