@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty6/netty6说明" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty6/netty6说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/MyClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/WebSocketServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/WebSocketServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/netty7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty4/netty4-同3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/neety实现Socket通信" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,17 +54,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="125" />
-    <option name="width" value="984" />
-    <option name="height" value="1035" />
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587376930284" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,22 +83,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyClient">
+  <component name="RunManager" selected="Application.MyServer (1)">
     <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xll.netty5.MyChatClient" />
-      <module name="mynetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xll.netty5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.netty5.MyChatServer" />
       <module name="mynetty" />
       <extension name="coverage">
         <pattern>
@@ -105,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.netty7.MyServer" />
+      <module name="mynetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xll.netty7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xll.netty6.MyServer" />
       <module name="mynetty" />
@@ -118,33 +136,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.netty2.NettyClient" />
-      <module name="mynetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xll.netty2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="MyClient.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mynetty/com/xll/netty7/MyClient.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MyChatServer" />
       <item itemvalue="Application.MyChatClient" />
       <item itemvalue="Application.MyServer" />
-      <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.MyClient" />
+      <item itemvalue="JavaScript Debug.MyClient.html" />
+      <item itemvalue="Application.MyServer (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyServer (1)" />
+        <item itemvalue="JavaScript Debug.MyClient.html" />
         <item itemvalue="Application.MyClient" />
         <item itemvalue="Application.MyServer" />
         <item itemvalue="Application.MyChatClient" />
-        <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.MyChatServer" />
       </list>
     </recent_temporary>
   </component>
