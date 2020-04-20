@@ -25,24 +25,5 @@ public class MyServer {
             boosLoopGroup.shutdownGracefully();
             workerLoopGroup.shutdownGracefully();
         }
-
     }
-/*
-    public static void main(String[] args) throws Exception {
-        EventLoopGroup bossGroup = new NioEventLoopGroup();
-        EventLoopGroup workerGroup = new NioEventLoopGroup();
-
-        try {
-            ServerBootstrap serverBootstrap = new ServerBootstrap();
-            serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).
-                    handler(new LoggingHandler(LogLevel.INFO)).
-                    childHandler(new MyServerInitializer());
-
-            ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
-            channelFuture.channel().closeFuture().sync();
-        } finally {
-            bossGroup.shutdownGracefully();
-            workerGroup.shutdownGracefully();
-        }
-    }*/
 }
