@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/MyClient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/WebSocketServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/WebSocketServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty7/netty7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/netty4/netty4-同3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/netty4/neety实现Socket通信" afterDir="false" />
-    </list>
+    <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,11 +46,14 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1aqnIkIt2uWrcIQEwAtw94mclwK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587376930284" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -143,8 +138,8 @@
       <item itemvalue="Application.MyChatClient" />
       <item itemvalue="Application.MyServer" />
       <item itemvalue="Application.MyClient" />
-      <item itemvalue="JavaScript Debug.MyClient.html" />
       <item itemvalue="Application.MyServer (1)" />
+      <item itemvalue="JavaScript Debug.MyClient.html" />
     </list>
     <recent_temporary>
       <list>
