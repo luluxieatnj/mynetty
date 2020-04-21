@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyNioTest2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNioTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNio0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNio3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNioTest2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyNio2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNioTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNio2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +59,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -65,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xll.nio" />
       <recent name="com.xll.netty5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -83,13 +88,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyNioTest2">
-    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.netty6.MyClient" />
+  <component name="RunManager" selected="Application.MyNio0">
+    <configuration name="MyNio0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.nio.MyNio0" />
       <module name="mynetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xll.netty6.*" />
+          <option name="PATTERN" value="com.xll.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyNioTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.nio.MyNioTest2" />
+    <configuration name="MyNio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.nio.MyNio2" />
+      <module name="mynetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xll.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyNio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.nio.MyNio3" />
       <module name="mynetty" />
       <extension name="coverage">
         <pattern>
@@ -123,36 +141,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.netty6.MyServer" />
-      <module name="mynetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xll.netty6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyClient.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mynetty/com/xll/netty7/MyClient.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MyServer" />
-      <item itemvalue="Application.MyClient" />
       <item itemvalue="Application.MyServer (1)" />
       <item itemvalue="JavaScript Debug.MyClient.html" />
-      <item itemvalue="Application.MyNioTest2" />
+      <item itemvalue="Application.MyNio2" />
+      <item itemvalue="Application.MyNio3" />
+      <item itemvalue="Application.MyNio0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyNioTest2" />
+        <item itemvalue="Application.MyNio0" />
+        <item itemvalue="Application.MyNio2" />
+        <item itemvalue="Application.MyNio3" />
         <item itemvalue="Application.MyServer (1)" />
         <item itemvalue="JavaScript Debug.MyClient.html" />
-        <item itemvalue="Application.MyClient" />
-        <item itemvalue="Application.MyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +183,7 @@
       <updated>1587099831571</updated>
       <workItem from="1587099833398" duration="1076000" />
       <workItem from="1587345303262" duration="13399000" />
-      <workItem from="1587471915176" duration="572000" />
+      <workItem from="1587471915176" duration="5663000" />
     </task>
     <servers />
   </component>

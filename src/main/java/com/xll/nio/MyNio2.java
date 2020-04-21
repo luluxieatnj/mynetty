@@ -7,9 +7,9 @@ import java.nio.channels.FileChannel;
 /**
  *  使用nio读取文件
  */
-public class MyNioTest2 {
+public class MyNio2 {
     public static void main(String[] args) throws Exception{
-        FileInputStream fileInputStream = new FileInputStream("MyNioTest2.txt");
+        FileInputStream fileInputStream = new FileInputStream("MyNio2.txt");
         FileChannel channel = fileInputStream.getChannel();
 
         ByteBuffer buffer = ByteBuffer.allocate(512);
