@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="" />
+    <list default="true" id="3ad46e93-4b36-4388-b3e9-3971137bd3f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyNioTest2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xll/nio/MyNioTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,13 +83,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyServer (1)">
-    <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.netty5.MyChatClient" />
+  <component name="RunManager" selected="Application.MyNioTest2">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.netty6.MyClient" />
       <module name="mynetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xll.netty5.*" />
+          <option name="PATTERN" value="com.xll.netty6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.netty6.MyClient" />
+    <configuration name="MyNioTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.nio.MyNioTest2" />
       <module name="mynetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xll.netty6.*" />
+          <option name="PATTERN" value="com.xll.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +140,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MyChatClient" />
       <item itemvalue="Application.MyServer" />
       <item itemvalue="Application.MyClient" />
       <item itemvalue="Application.MyServer (1)" />
       <item itemvalue="JavaScript Debug.MyClient.html" />
+      <item itemvalue="Application.MyNioTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyNioTest2" />
         <item itemvalue="Application.MyServer (1)" />
         <item itemvalue="JavaScript Debug.MyClient.html" />
         <item itemvalue="Application.MyClient" />
         <item itemvalue="Application.MyServer" />
-        <item itemvalue="Application.MyChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +178,22 @@
       <updated>1587099831571</updated>
       <workItem from="1587099833398" duration="1076000" />
       <workItem from="1587345303262" duration="13399000" />
+      <workItem from="1587471915176" duration="572000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
