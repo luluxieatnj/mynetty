@@ -1,0 +1,7 @@
+netty心跳机制监控
+
+IdleStateHandler(readTime, writeTome, readAndWriteTime)
+
+坑：
+1.IdleStateHandler放在管道第一个
+2.重写userEventTriggered方法

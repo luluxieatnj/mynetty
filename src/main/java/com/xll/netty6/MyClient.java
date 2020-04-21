@@ -1,45 +1,37 @@
 package com.xll.netty6;
 
+import com.xll.netty5.MyChatClientInitializer;
 import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelPipeline;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
-import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
-import io.netty.handler.timeout.IdleStateHandler;
 
-import java.util.concurrent.TimeUnit;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class MyClient {
     public static void main(String[] args) throws Exception {
-        NioEventLoopGroup loopGroup = new NioEventLoopGroup();
-
+        EventLoopGroup loopGroup = new NioEventLoopGroup();
         try {
             Bootstrap bootstrap = new Bootstrap();
-            bootstrap.group(loopGroup).channel(NioSocketChannel.class)
+            bootstrap.group(loopGroup)
+                    .channel(NioSocketChannel.class)
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
-                            ChannelPipeline pipeline = socketChannel.pipeline();
-                            pipeline.addLast(new StringDecoder())
-                                    .addLast(new StringEncoder())
-                                    .addLast(new MyClientHandler());
+                            socketChannel.pipeline().addLast(new SimpleChannelInboundHandler() {
+                                @Override
+                                protected void channelRead0(ChannelHandlerContext ctx, Object o) throws Exception {
+                                    // Empty  空实现不处理
+                                }
+                            });
                         }
                     });
-            ChannelFuture connect = bootstrap.connect("localhost", 8899).sync();
-            int k = 1;
-            for (;k <= 10;) {
-                connect.channel().writeAndFlush("AAA k = " + k++);
-                Thread.sleep(100);
-            }
-            connect.channel().closeFuture().sync();
+            ChannelFuture channelFuture = bootstrap.connect("localhost", 8899).sync();
+            channelFuture.channel().closeFuture().sync();
         } finally {
             loopGroup.shutdownGracefully();
         }
     }
 }
-
