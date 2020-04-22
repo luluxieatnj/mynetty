@@ -23,7 +23,6 @@ public class MyNio1 {
         }
 
         System.out.println(buffer);
-
         // 从写模式 切换到 读模式
         buffer.flip();
         System.out.println(buffer);
