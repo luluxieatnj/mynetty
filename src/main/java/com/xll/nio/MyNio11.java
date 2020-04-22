@@ -7,7 +7,11 @@ import java.nio.channels.SocketChannel;
 import java.util.Arrays;
 
 /**
+ *   测试，本地使用命令 nc localhost 8899
+ *
  *   关于Buffer的Scattering与Gathering
+ *      分散 与 聚合
+ *        socketChannel.read(ByteBuffer[] buffers);  可以是数组
  */
 public class MyNio11 {
     public static void main(String[] args) throws Exception {
