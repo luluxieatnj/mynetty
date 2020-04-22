@@ -3,7 +3,7 @@ package com.xll.nio;
 import java.nio.ByteBuffer;
 
 /**
- *  测试
+ *  测试  buffer.slice();  切片与 buffer共享数据， 但是各自持有独立的指针
  */
 public class MyNio6 {
     public static void main(String[] args) {

@@ -15,6 +15,12 @@ public class MyNio7 {
         // 注意会生成一个新的对象  return new HeapByteBufferR(...);
         ByteBuffer readOnlyBuffer = buffer.asReadOnlyBuffer();
 
-        System.out.println(readOnlyBuffer.isReadOnly());
+        System.out.println(readOnlyBuffer.isReadOnly());  // true
+
+        System.out.println(buffer.getClass());  // HeapByteBuffer
+        System.out.println(readOnlyBuffer.getClass()); // HeapByteBufferR
+
+        readOnlyBuffer.position(0);
+//        readOnlyBuffer.put((byte)2); // ReadOnlyBufferException
     }
 }
