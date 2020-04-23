@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- *   服务端一个线程，实现处理来自多个客户端的连接
+ *   服务端一个线程，实现处理来自多个客户端的连接（nc客户端）
  *   Selector channel  byteBuffer 使用
  *
  *   -- 测试， 在Windows下， 打开命令窗口，输入 : nc localhost 5000即可测试  (前提，已经配置nc环境变量)
